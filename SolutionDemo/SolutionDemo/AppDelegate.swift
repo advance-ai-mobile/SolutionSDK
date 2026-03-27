@@ -1,30 +1,16 @@
-//
-//  AppDelegate.swift
-//  SolutionDemo
-//
-//  Created by loong on 2026/3/26.
-//
-
-import Cocoa
+import UIKit
 
 @main
-class AppDelegate: NSObject, NSApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    
+    var window: UIWindow?
 
-
-    func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
-    }
-
-    func applicationWillTerminate(_ aNotification: Notification) {
-        // Insert code here to tear down your application
-    }
-
-    func applicationSupportsSecureRestorableState(_ app: NSApplication) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        let window = UIWindow(frame: UIScreen.main.bounds)
+        window.rootViewController = ViewController()
+        window.makeKeyAndVisible()
+        self.window = window
         return true
     }
 
-
 }
-

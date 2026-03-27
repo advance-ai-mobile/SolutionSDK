@@ -1,0 +1,13 @@
+source 'https://github.com/advance-ai-mobile/aai-specs.git'
+source 'https://cdn.cocoapods.org/'
+
+# Uncomment the next line to define a global platform for your project
+platform :ios, '11.0'
+
+target 'SolutionDemo' do
+  use_frameworks!
+
+#  pod 'SolutionSDK', :git => 'https://github.com/advance-ai-mobile/SolutionSDK.git'
+pod 'SolutionSDK', :path => '../'
+
+end

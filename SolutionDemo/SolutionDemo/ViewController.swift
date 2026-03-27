@@ -1,26 +1,11 @@
-//
-//  ViewController.swift
-//  SolutionDemo
-//
-//  Created by loong on 2026/3/26.
-//
+import UIKit
+import SolutionSDK
 
-import Cocoa
-
-class ViewController: NSViewController {
+class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .white
     }
-
-    override var representedObject: Any? {
-        didSet {
-        // Update the view, if already loaded.
-        }
-    }
-
 
 }
-
