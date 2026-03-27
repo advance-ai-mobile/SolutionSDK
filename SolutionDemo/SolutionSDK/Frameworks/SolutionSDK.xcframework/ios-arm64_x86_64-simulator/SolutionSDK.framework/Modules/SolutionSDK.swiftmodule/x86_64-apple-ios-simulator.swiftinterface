@@ -1,0 +1,117 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name SolutionSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+import AAICore
+import AAIDataVisor
+import AVFoundation
+import CommonCrypto
+import Compression
+import CoreTelephony
+import Foundation
+@_exported import SolutionSDK
+import Swift
+import SystemConfiguration
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol DictInitializable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  init?(with dict: [Swift.String : Any])
+  #endif
+}
+public struct EndResult : Swift.Sendable {
+  public let code: Swift.String
+  public let signatureId: Swift.String?
+  public let finishRedirectUrl: Swift.String?
+  public let extraInfo: [Swift.String : any Swift.Sendable]?
+  public var terminated: Swift.Bool {
+    get
+  }
+  public var toDict: [Swift.String : Any] {
+    get
+  }
+}
+public class SLListener {
+  public init(end: @escaping (SolutionSDK.EndResult) -> Swift.Void)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class SolutionCenter {
+  public enum ThemeType {
+    case LIGHT
+    case DARK
+    case FOLLOW_SYSTEM
+    public init(rawValue: Swift.String)
+    public static func == (a: SolutionSDK.SolutionCenter.ThemeType, b: SolutionSDK.SolutionCenter.ThemeType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public static let shared: SolutionSDK.SolutionCenter
+  public func start(with url: Swift.String)
+  public func setThemeARGBColor(light: Swift.UInt32, dark: Swift.UInt32)
+  public func setThemeRGBAColor(light: Swift.UInt32, dark: Swift.UInt32)
+  public func setDarkThemeType(_ type: SolutionSDK.SolutionCenter.ThemeType)
+  public func register(listener: SolutionSDK.SLListener)
+  @objc deinit
+}
+extension SolutionSDK.SolutionCenter {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func startBy(with url: Swift.String) -> UIKit.UIViewController?
+  #endif
+}
+extension SolutionSDK.SolutionCenter {
+  public var sdkVersion: Swift.String {
+    get
+  }
+  public var pluginPlatform: Swift.String {
+    get
+    set
+  }
+}
+@objc public enum ThemeType : Swift.Int {
+  case light
+  case dark
+  case follow_system
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class SolutionCenterOC : ObjectiveC.NSObject {
+  @objc public func register(listener: SolutionSDK.SLListenerOC)
+  @objc public func start(with url: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func startBy(with url: Swift.String) -> UIKit.UIViewController?
+  #endif
+  @objc public func setThemeARGBColor(light: Swift.UInt32, dark: Swift.UInt32)
+  @objc public func setThemeRGBAColor(light: Swift.UInt32, dark: Swift.UInt32)
+  @objc public func setDarkThemeType(_ type: SolutionSDK.ThemeType)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public class SLListenerOC : ObjectiveC.NSObject {
+  @objc public init(end: @escaping (SolutionSDK.SolutionEnResultOC) -> Swift.Void)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class SolutionEnResultOC : ObjectiveC.NSObject {
+  @objc final public let code: Swift.String
+  @objc final public let signatureId: Swift.String?
+  @objc final public let finishRedirectUrl: Swift.String?
+  @objc final public let extraInfo: [Swift.String : Any]?
+  @objc public var terminated: Swift.Bool {
+    @objc get
+  }
+  @objc deinit
+}
+extension SolutionSDK.SolutionCenter.ThemeType : Swift.Equatable {}
+extension SolutionSDK.SolutionCenter.ThemeType : Swift.Hashable {}
+extension SolutionSDK.ThemeType : Swift.Equatable {}
+extension SolutionSDK.ThemeType : Swift.Hashable {}
+extension SolutionSDK.ThemeType : Swift.RawRepresentable {}

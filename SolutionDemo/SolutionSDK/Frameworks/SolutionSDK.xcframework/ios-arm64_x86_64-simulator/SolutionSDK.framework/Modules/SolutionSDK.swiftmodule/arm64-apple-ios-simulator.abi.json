@@ -1,0 +1,4752 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "SolutionSDK",
+    "printedName": "SolutionSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DictInitializable",
+        "printedName": "DictInitializable",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11SolutionSDK17DictInitializableP4withxSgSDySSypG_tcfc",
+            "mangledName": "$s11SolutionSDK17DictInitializableP4withxSgSDySSypG_tcfc",
+            "moduleName": "SolutionSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : SolutionSDK.DictInitializable>",
+            "sugared_genericSig": "<Self where Self : SolutionSDK.DictInitializable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11SolutionSDK17DictInitializableP",
+        "mangledName": "$s11SolutionSDK17DictInitializableP",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AAICore",
+        "printedName": "AAICore",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AAICore",
+        "printedName": "AAICore",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Compression",
+        "printedName": "Compression",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration",
+        "printedName": "SystemConfiguration",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EndResult",
+        "printedName": "EndResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SolutionSDK9EndResultV4codeSSvp",
+            "mangledName": "$s11SolutionSDK9EndResultV4codeSSvp",
+            "moduleName": "SolutionSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SolutionSDK9EndResultV4codeSSvg",
+                "mangledName": "$s11SolutionSDK9EndResultV4codeSSvg",
+                "moduleName": "SolutionSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "signatureId",
+            "printedName": "signatureId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SolutionSDK9EndResultV11signatureIdSSSgvp",
+            "mangledName": "$s11SolutionSDK9EndResultV11signatureIdSSSgvp",
+            "moduleName": "SolutionSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SolutionSDK9EndResultV11signatureIdSSSgvg",
+                "mangledName": "$s11SolutionSDK9EndResultV11signatureIdSSSgvg",
+                "moduleName": "SolutionSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "finishRedirectUrl",
+            "printedName": "finishRedirectUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SolutionSDK9EndResultV17finishRedirectUrlSSSgvp",
+            "mangledName": "$s11SolutionSDK9EndResultV17finishRedirectUrlSSSgvp",
+            "moduleName": "SolutionSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SolutionSDK9EndResultV17finishRedirectUrlSSSgvg",
+                "mangledName": "$s11SolutionSDK9EndResultV17finishRedirectUrlSSSgvg",
+                "moduleName": "SolutionSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "extraInfo",
+            "printedName": "extraInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : any Swift.Sendable]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : any Swift.Sendable]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Sendable",
+                        "printedName": "any Swift.Sendable",
+                        "usr": "s:s8SendableP"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SolutionSDK9EndResultV9extraInfoSDySSs8Sendable_pGSgvp",
+            "mangledName": "$s11SolutionSDK9EndResultV9extraInfoSDySSs8Sendable_pGSgvp",
+            "moduleName": "SolutionSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : any Swift.Sendable]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : any Swift.Sendable]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Sendable",
+                            "printedName": "any Swift.Sendable",
+                            "usr": "s:s8SendableP"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SolutionSDK9EndResultV9extraInfoSDySSs8Sendable_pGSgvg",
+                "mangledName": "$s11SolutionSDK9EndResultV9extraInfoSDySSs8Sendable_pGSgvg",
+                "moduleName": "SolutionSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "terminated",
+            "printedName": "terminated",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SolutionSDK9EndResultV10terminatedSbvp",
+            "mangledName": "$s11SolutionSDK9EndResultV10terminatedSbvp",
+            "moduleName": "SolutionSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SolutionSDK9EndResultV10terminatedSbvg",
+                "mangledName": "$s11SolutionSDK9EndResultV10terminatedSbvg",
+                "moduleName": "SolutionSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "toDict",
+            "printedName": "toDict",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SolutionSDK9EndResultV6toDictSDySSypGvp",
+            "mangledName": "$s11SolutionSDK9EndResultV6toDictSDySSypGvp",
+            "moduleName": "SolutionSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SolutionSDK9EndResultV6toDictSDySSypGvg",
+                "mangledName": "$s11SolutionSDK9EndResultV6toDictSDySSypGvg",
+                "moduleName": "SolutionSDK",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11SolutionSDK9EndResultV",
+        "mangledName": "$s11SolutionSDK9EndResultV",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SLListener",
+        "printedName": "SLListener",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(end:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SLListener",
+                "printedName": "SolutionSDK.SLListener",
+                "usr": "s:11SolutionSDK10SLListenerC"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SolutionSDK.EndResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EndResult",
+                    "printedName": "SolutionSDK.EndResult",
+                    "usr": "s:11SolutionSDK9EndResultV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11SolutionSDK10SLListenerC3endACyAA9EndResultVc_tcfc",
+            "mangledName": "$s11SolutionSDK10SLListenerC3endACyAA9EndResultVc_tcfc",
+            "moduleName": "SolutionSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11SolutionSDK10SLListenerC",
+        "mangledName": "$s11SolutionSDK10SLListenerC",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SolutionCenter",
+        "printedName": "SolutionCenter",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "ThemeType",
+            "printedName": "ThemeType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "LIGHT",
+                "printedName": "LIGHT",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SolutionSDK.SolutionCenter.ThemeType.Type) -> SolutionSDK.SolutionCenter.ThemeType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ThemeType",
+                        "printedName": "SolutionSDK.SolutionCenter.ThemeType",
+                        "usr": "s:11SolutionSDK0A6CenterC9ThemeTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SolutionSDK.SolutionCenter.ThemeType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ThemeType",
+                            "printedName": "SolutionSDK.SolutionCenter.ThemeType",
+                            "usr": "s:11SolutionSDK0A6CenterC9ThemeTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11SolutionSDK0A6CenterC9ThemeTypeO5LIGHTyA2EmF",
+                "mangledName": "$s11SolutionSDK0A6CenterC9ThemeTypeO5LIGHTyA2EmF",
+                "moduleName": "SolutionSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "DARK",
+                "printedName": "DARK",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SolutionSDK.SolutionCenter.ThemeType.Type) -> SolutionSDK.SolutionCenter.ThemeType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ThemeType",
+                        "printedName": "SolutionSDK.SolutionCenter.ThemeType",
+                        "usr": "s:11SolutionSDK0A6CenterC9ThemeTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SolutionSDK.SolutionCenter.ThemeType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ThemeType",
+                            "printedName": "SolutionSDK.SolutionCenter.ThemeType",
+                            "usr": "s:11SolutionSDK0A6CenterC9ThemeTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11SolutionSDK0A6CenterC9ThemeTypeO4DARKyA2EmF",
+                "mangledName": "$s11SolutionSDK0A6CenterC9ThemeTypeO4DARKyA2EmF",
+                "moduleName": "SolutionSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "FOLLOW_SYSTEM",
+                "printedName": "FOLLOW_SYSTEM",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SolutionSDK.SolutionCenter.ThemeType.Type) -> SolutionSDK.SolutionCenter.ThemeType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ThemeType",
+                        "printedName": "SolutionSDK.SolutionCenter.ThemeType",
+                        "usr": "s:11SolutionSDK0A6CenterC9ThemeTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SolutionSDK.SolutionCenter.ThemeType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ThemeType",
+                            "printedName": "SolutionSDK.SolutionCenter.ThemeType",
+                            "usr": "s:11SolutionSDK0A6CenterC9ThemeTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11SolutionSDK0A6CenterC9ThemeTypeO13FOLLOW_SYSTEMyA2EmF",
+                "mangledName": "$s11SolutionSDK0A6CenterC9ThemeTypeO13FOLLOW_SYSTEMyA2EmF",
+                "moduleName": "SolutionSDK"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ThemeType",
+                    "printedName": "SolutionSDK.SolutionCenter.ThemeType",
+                    "usr": "s:11SolutionSDK0A6CenterC9ThemeTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:11SolutionSDK0A6CenterC9ThemeTypeO8rawValueAESS_tcfc",
+                "mangledName": "$s11SolutionSDK0A6CenterC9ThemeTypeO8rawValueAESS_tcfc",
+                "moduleName": "SolutionSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ThemeType",
+                    "printedName": "SolutionSDK.SolutionCenter.ThemeType",
+                    "usr": "s:11SolutionSDK0A6CenterC9ThemeTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ThemeType",
+                    "printedName": "SolutionSDK.SolutionCenter.ThemeType",
+                    "usr": "s:11SolutionSDK0A6CenterC9ThemeTypeO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:11SolutionSDK0A6CenterC9ThemeTypeO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s11SolutionSDK0A6CenterC9ThemeTypeO2eeoiySbAE_AEtFZ",
+                "moduleName": "SolutionSDK",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11SolutionSDK0A6CenterC9ThemeTypeO9hashValueSivp",
+                "mangledName": "$s11SolutionSDK0A6CenterC9ThemeTypeO9hashValueSivp",
+                "moduleName": "SolutionSDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11SolutionSDK0A6CenterC9ThemeTypeO9hashValueSivg",
+                    "mangledName": "$s11SolutionSDK0A6CenterC9ThemeTypeO9hashValueSivg",
+                    "moduleName": "SolutionSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:11SolutionSDK0A6CenterC9ThemeTypeO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s11SolutionSDK0A6CenterC9ThemeTypeO4hash4intoys6HasherVz_tF",
+                "moduleName": "SolutionSDK",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:11SolutionSDK0A6CenterC9ThemeTypeO",
+            "mangledName": "$s11SolutionSDK0A6CenterC9ThemeTypeO",
+            "moduleName": "SolutionSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SolutionCenter",
+                "printedName": "SolutionSDK.SolutionCenter",
+                "usr": "s:11SolutionSDK0A6CenterC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SolutionSDK0A6CenterC6sharedACvpZ",
+            "mangledName": "$s11SolutionSDK0A6CenterC6sharedACvpZ",
+            "moduleName": "SolutionSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SolutionCenter",
+                    "printedName": "SolutionSDK.SolutionCenter",
+                    "usr": "s:11SolutionSDK0A6CenterC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SolutionSDK0A6CenterC6sharedACvgZ",
+                "mangledName": "$s11SolutionSDK0A6CenterC6sharedACvgZ",
+                "moduleName": "SolutionSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SolutionSDK0A6CenterC5start4withySS_tF",
+            "mangledName": "$s11SolutionSDK0A6CenterC5start4withySS_tF",
+            "moduleName": "SolutionSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setThemeARGBColor",
+            "printedName": "setThemeARGBColor(light:dark:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SolutionSDK0A6CenterC17setThemeARGBColor5light4darkys6UInt32V_AHtF",
+            "mangledName": "$s11SolutionSDK0A6CenterC17setThemeARGBColor5light4darkys6UInt32V_AHtF",
+            "moduleName": "SolutionSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setThemeRGBAColor",
+            "printedName": "setThemeRGBAColor(light:dark:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SolutionSDK0A6CenterC17setThemeRGBAColor5light4darkys6UInt32V_AHtF",
+            "mangledName": "$s11SolutionSDK0A6CenterC17setThemeRGBAColor5light4darkys6UInt32V_AHtF",
+            "moduleName": "SolutionSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setDarkThemeType",
+            "printedName": "setDarkThemeType(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ThemeType",
+                "printedName": "SolutionSDK.SolutionCenter.ThemeType",
+                "usr": "s:11SolutionSDK0A6CenterC9ThemeTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SolutionSDK0A6CenterC16setDarkThemeTypeyyAC0fG0OF",
+            "mangledName": "$s11SolutionSDK0A6CenterC16setDarkThemeTypeyyAC0fG0OF",
+            "moduleName": "SolutionSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SLListener",
+                "printedName": "SolutionSDK.SLListener",
+                "usr": "s:11SolutionSDK10SLListenerC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SolutionSDK0A6CenterC8register8listeneryAA10SLListenerC_tF",
+            "mangledName": "$s11SolutionSDK0A6CenterC8register8listeneryAA10SLListenerC_tF",
+            "moduleName": "SolutionSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startBy",
+            "printedName": "startBy(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SolutionSDK0A6CenterC7startBy4withSo16UIViewControllerCSgSS_tF",
+            "mangledName": "$s11SolutionSDK0A6CenterC7startBy4withSo16UIViewControllerCSgSS_tF",
+            "moduleName": "SolutionSDK",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "sdkVersion",
+            "printedName": "sdkVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SolutionSDK0A6CenterC10sdkVersionSSvp",
+            "mangledName": "$s11SolutionSDK0A6CenterC10sdkVersionSSvp",
+            "moduleName": "SolutionSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SolutionSDK0A6CenterC10sdkVersionSSvg",
+                "mangledName": "$s11SolutionSDK0A6CenterC10sdkVersionSSvg",
+                "moduleName": "SolutionSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pluginPlatform",
+            "printedName": "pluginPlatform",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SolutionSDK0A6CenterC14pluginPlatformSSvp",
+            "mangledName": "$s11SolutionSDK0A6CenterC14pluginPlatformSSvp",
+            "moduleName": "SolutionSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SolutionSDK0A6CenterC14pluginPlatformSSvg",
+                "mangledName": "$s11SolutionSDK0A6CenterC14pluginPlatformSSvg",
+                "moduleName": "SolutionSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SolutionSDK0A6CenterC14pluginPlatformSSvs",
+                "mangledName": "$s11SolutionSDK0A6CenterC14pluginPlatformSSvs",
+                "moduleName": "SolutionSDK",
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SolutionSDK0A6CenterC14pluginPlatformSSvM",
+                "mangledName": "$s11SolutionSDK0A6CenterC14pluginPlatformSSvM",
+                "moduleName": "SolutionSDK",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11SolutionSDK0A6CenterC",
+        "mangledName": "$s11SolutionSDK0A6CenterC",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ThemeType",
+        "printedName": "ThemeType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "light",
+            "printedName": "light",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SolutionSDK.ThemeType.Type) -> SolutionSDK.ThemeType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ThemeType",
+                    "printedName": "SolutionSDK.ThemeType",
+                    "usr": "c:@M@SolutionSDK@E@ThemeType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SolutionSDK.ThemeType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ThemeType",
+                        "printedName": "SolutionSDK.ThemeType",
+                        "usr": "c:@M@SolutionSDK@E@ThemeType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@SolutionSDK@E@ThemeType@ThemeTypeLight",
+            "mangledName": "$s11SolutionSDK9ThemeTypeO5lightyA2CmF",
+            "moduleName": "SolutionSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "dark",
+            "printedName": "dark",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SolutionSDK.ThemeType.Type) -> SolutionSDK.ThemeType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ThemeType",
+                    "printedName": "SolutionSDK.ThemeType",
+                    "usr": "c:@M@SolutionSDK@E@ThemeType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SolutionSDK.ThemeType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ThemeType",
+                        "printedName": "SolutionSDK.ThemeType",
+                        "usr": "c:@M@SolutionSDK@E@ThemeType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@SolutionSDK@E@ThemeType@ThemeTypeDark",
+            "mangledName": "$s11SolutionSDK9ThemeTypeO4darkyA2CmF",
+            "moduleName": "SolutionSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "follow_system",
+            "printedName": "follow_system",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SolutionSDK.ThemeType.Type) -> SolutionSDK.ThemeType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ThemeType",
+                    "printedName": "SolutionSDK.ThemeType",
+                    "usr": "c:@M@SolutionSDK@E@ThemeType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SolutionSDK.ThemeType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ThemeType",
+                        "printedName": "SolutionSDK.ThemeType",
+                        "usr": "c:@M@SolutionSDK@E@ThemeType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@SolutionSDK@E@ThemeType@ThemeTypeFollow_system",
+            "mangledName": "$s11SolutionSDK9ThemeTypeO13follow_systemyA2CmF",
+            "moduleName": "SolutionSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SolutionSDK.ThemeType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ThemeType",
+                    "printedName": "SolutionSDK.ThemeType",
+                    "usr": "c:@M@SolutionSDK@E@ThemeType"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11SolutionSDK9ThemeTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s11SolutionSDK9ThemeTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "SolutionSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SolutionSDK9ThemeTypeO8rawValueSivp",
+            "mangledName": "$s11SolutionSDK9ThemeTypeO8rawValueSivp",
+            "moduleName": "SolutionSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SolutionSDK9ThemeTypeO8rawValueSivg",
+                "mangledName": "$s11SolutionSDK9ThemeTypeO8rawValueSivg",
+                "moduleName": "SolutionSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@SolutionSDK@E@ThemeType",
+        "mangledName": "$s11SolutionSDK9ThemeTypeO",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SolutionCenterOC",
+        "printedName": "SolutionCenterOC",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SLListenerOC",
+                "printedName": "SolutionSDK.SLListenerOC",
+                "usr": "c:@M@SolutionSDK@objc(cs)SLListenerOC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SolutionSDK@objc(cs)SolutionCenterOC(im)registerWithListener:",
+            "mangledName": "$s11SolutionSDK0A8CenterOCC8register8listeneryAA010SLListenerD0C_tF",
+            "moduleName": "SolutionSDK",
+            "objc_name": "registerWithListener:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SolutionSDK@objc(cs)SolutionCenterOC(im)startWith:",
+            "mangledName": "$s11SolutionSDK0A8CenterOCC5start4withySS_tF",
+            "moduleName": "SolutionSDK",
+            "objc_name": "startWith:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startBy",
+            "printedName": "startBy(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SolutionSDK@objc(cs)SolutionCenterOC(im)startByWith:",
+            "mangledName": "$s11SolutionSDK0A8CenterOCC7startBy4withSo16UIViewControllerCSgSS_tF",
+            "moduleName": "SolutionSDK",
+            "objc_name": "startByWith:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setThemeARGBColor",
+            "printedName": "setThemeARGBColor(light:dark:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SolutionSDK@objc(cs)SolutionCenterOC(im)setThemeARGBColorWithLight:dark:",
+            "mangledName": "$s11SolutionSDK0A8CenterOCC17setThemeARGBColor5light4darkys6UInt32V_AHtF",
+            "moduleName": "SolutionSDK",
+            "objc_name": "setThemeARGBColorWithLight:dark:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setThemeRGBAColor",
+            "printedName": "setThemeRGBAColor(light:dark:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SolutionSDK@objc(cs)SolutionCenterOC(im)setThemeRGBAColorWithLight:dark:",
+            "mangledName": "$s11SolutionSDK0A8CenterOCC17setThemeRGBAColor5light4darkys6UInt32V_AHtF",
+            "moduleName": "SolutionSDK",
+            "objc_name": "setThemeRGBAColorWithLight:dark:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setDarkThemeType",
+            "printedName": "setDarkThemeType(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ThemeType",
+                "printedName": "SolutionSDK.ThemeType",
+                "usr": "c:@M@SolutionSDK@E@ThemeType"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SolutionSDK@objc(cs)SolutionCenterOC(im)setDarkThemeType:",
+            "mangledName": "$s11SolutionSDK0A8CenterOCC16setDarkThemeTypeyyAA0gH0OF",
+            "moduleName": "SolutionSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SolutionCenterOC",
+                "printedName": "SolutionSDK.SolutionCenterOC",
+                "usr": "c:@M@SolutionSDK@objc(cs)SolutionCenterOC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SolutionSDK@objc(cs)SolutionCenterOC(im)init",
+            "mangledName": "$s11SolutionSDK0A8CenterOCCACycfc",
+            "moduleName": "SolutionSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SolutionSDK@objc(cs)SolutionCenterOC",
+        "mangledName": "$s11SolutionSDK0A8CenterOCC",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SLListenerOC",
+        "printedName": "SLListenerOC",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(end:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SLListenerOC",
+                "printedName": "SolutionSDK.SLListenerOC",
+                "usr": "c:@M@SolutionSDK@objc(cs)SLListenerOC"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SolutionSDK.SolutionEnResultOC) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SolutionEnResultOC",
+                    "printedName": "SolutionSDK.SolutionEnResultOC",
+                    "usr": "c:@M@SolutionSDK@objc(cs)SolutionEnResultOC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SolutionSDK@objc(cs)SLListenerOC(im)initWithEnd:",
+            "mangledName": "$s11SolutionSDK12SLListenerOCC3endACyAA0a8EnResultD0Cc_tcfc",
+            "moduleName": "SolutionSDK",
+            "objc_name": "initWithEnd:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SLListenerOC",
+                "printedName": "SolutionSDK.SLListenerOC",
+                "usr": "c:@M@SolutionSDK@objc(cs)SLListenerOC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SolutionSDK@objc(cs)SLListenerOC(im)init",
+            "mangledName": "$s11SolutionSDK12SLListenerOCCACycfc",
+            "moduleName": "SolutionSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SolutionSDK@objc(cs)SLListenerOC",
+        "mangledName": "$s11SolutionSDK12SLListenerOCC",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SolutionEnResultOC",
+        "printedName": "SolutionEnResultOC",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SolutionSDK@objc(cs)SolutionEnResultOC(py)code",
+            "mangledName": "$s11SolutionSDK0A10EnResultOCC4codeSSvp",
+            "moduleName": "SolutionSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SolutionSDK@objc(cs)SolutionEnResultOC(im)code",
+                "mangledName": "$s11SolutionSDK0A10EnResultOCC4codeSSvg",
+                "moduleName": "SolutionSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "signatureId",
+            "printedName": "signatureId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SolutionSDK@objc(cs)SolutionEnResultOC(py)signatureId",
+            "mangledName": "$s11SolutionSDK0A10EnResultOCC11signatureIdSSSgvp",
+            "moduleName": "SolutionSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SolutionSDK@objc(cs)SolutionEnResultOC(im)signatureId",
+                "mangledName": "$s11SolutionSDK0A10EnResultOCC11signatureIdSSSgvg",
+                "moduleName": "SolutionSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "finishRedirectUrl",
+            "printedName": "finishRedirectUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SolutionSDK@objc(cs)SolutionEnResultOC(py)finishRedirectUrl",
+            "mangledName": "$s11SolutionSDK0A10EnResultOCC17finishRedirectUrlSSSgvp",
+            "moduleName": "SolutionSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SolutionSDK@objc(cs)SolutionEnResultOC(im)finishRedirectUrl",
+                "mangledName": "$s11SolutionSDK0A10EnResultOCC17finishRedirectUrlSSSgvg",
+                "moduleName": "SolutionSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "extraInfo",
+            "printedName": "extraInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SolutionSDK@objc(cs)SolutionEnResultOC(py)extraInfo",
+            "mangledName": "$s11SolutionSDK0A10EnResultOCC9extraInfoSDySSypGSgvp",
+            "moduleName": "SolutionSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SolutionSDK@objc(cs)SolutionEnResultOC(im)extraInfo",
+                "mangledName": "$s11SolutionSDK0A10EnResultOCC9extraInfoSDySSypGSgvg",
+                "moduleName": "SolutionSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "terminated",
+            "printedName": "terminated",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SolutionSDK@objc(cs)SolutionEnResultOC(py)terminated",
+            "mangledName": "$s11SolutionSDK0A10EnResultOCC10terminatedSbvp",
+            "moduleName": "SolutionSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SolutionSDK@objc(cs)SolutionEnResultOC(im)terminated",
+                "mangledName": "$s11SolutionSDK0A10EnResultOCC10terminatedSbvg",
+                "moduleName": "SolutionSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SolutionEnResultOC",
+                "printedName": "SolutionSDK.SolutionEnResultOC",
+                "usr": "c:@M@SolutionSDK@objc(cs)SolutionEnResultOC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SolutionSDK@objc(cs)SolutionEnResultOC(im)init",
+            "mangledName": "$s11SolutionSDK0A10EnResultOCCACycfc",
+            "moduleName": "SolutionSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SolutionSDK@objc(cs)SolutionEnResultOC",
+        "mangledName": "$s11SolutionSDK0A10EnResultOCC",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AAICore",
+        "printedName": "AAICore",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AAIDataVisor",
+        "printedName": "AAIDataVisor",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Array",
+        "printedName": "Array",
+        "declKind": "Struct",
+        "usr": "s:Sa",
+        "mangledName": "$sSa",
+        "moduleName": "Swift",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Element>",
+        "declAttributes": [
+          "EagerMove",
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_DestructorSafeContainer",
+            "printedName": "_DestructorSafeContainer",
+            "usr": "s:s24_DestructorSafeContainerP",
+            "mangledName": "$ss24_DestructorSafeContainerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ArrayProtocol",
+            "printedName": "_ArrayProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Buffer",
+                "printedName": "_Buffer",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_ArrayBuffer",
+                    "printedName": "Swift._ArrayBuffer<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s12_ArrayBufferV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s14_ArrayProtocolP",
+            "mangledName": "$ss14_ArrayProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RandomAccessCollection",
+            "printedName": "RandomAccessCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sk",
+            "mangledName": "$sSk"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableCollection",
+            "printedName": "MutableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SM",
+            "mangledName": "$sSM"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IndexingIterator",
+                    "printedName": "Swift.IndexingIterator<[τ_0_0]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[τ_0_0]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s16IndexingIteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IndexingIterator",
+                    "printedName": "Swift.IndexingIterator<[τ_0_0]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[τ_0_0]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s16IndexingIteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByArrayLiteral",
+            "printedName": "ExpressibleByArrayLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ArrayLiteralElement",
+                "printedName": "ArrayLiteralElement",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s25ExpressibleByArrayLiteralP",
+            "mangledName": "$ss25ExpressibleByArrayLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasContiguousBytes",
+            "printedName": "_HasContiguousBytes",
+            "usr": "s:s19_HasContiguousBytesP",
+            "mangledName": "$ss19_HasContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DataProtocol",
+            "printedName": "DataProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Regions",
+                "printedName": "Regions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionOfOne",
+                    "printedName": "Swift.CollectionOfOne<[Swift.UInt8]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.UInt8]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UInt8",
+                            "printedName": "Swift.UInt8",
+                            "usr": "s:s5UInt8V"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s15CollectionOfOneV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation12DataProtocolP",
+            "mangledName": "$s10Foundation12DataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableDataProtocol",
+            "printedName": "MutableDataProtocol",
+            "usr": "s:10Foundation19MutableDataProtocolP",
+            "mangledName": "$s10Foundation19MutableDataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ContiguousBytes",
+            "printedName": "ContiguousBytes",
+            "usr": "s:10Foundation15ContiguousBytesP",
+            "mangledName": "$s10Foundation15ContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "EncodableWithConfiguration",
+            "printedName": "EncodableWithConfiguration",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "EncodingConfiguration",
+                "printedName": "EncodingConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.EncodingConfiguration"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation26EncodableWithConfigurationP",
+            "mangledName": "$s10Foundation26EncodableWithConfigurationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DecodableWithConfiguration",
+            "printedName": "DecodableWithConfiguration",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "DecodingConfiguration",
+                "printedName": "DecodingConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.DecodingConfiguration"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation26DecodableWithConfigurationP",
+            "mangledName": "$s10Foundation26DecodableWithConfigurationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSArray",
+                    "printedName": "Foundation.NSArray",
+                    "usr": "c:objc(cs)NSArray"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Content",
+            "printedName": "Content",
+            "usr": "s:So17CMSampleBufferRefa9CoreMediaE7ContentP",
+            "mangledName": "$sSo17CMSampleBufferRefa9CoreMediaE7ContentP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ContentWithFormatDescription",
+            "printedName": "ContentWithFormatDescription",
+            "usr": "s:So17CMSampleBufferRefa9CoreMediaE28ContentWithFormatDescriptionP",
+            "mangledName": "$sSo17CMSampleBufferRefa9CoreMediaE28ContentWithFormatDescriptionP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/customView\/AAILoadView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 454,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/Logger\/AAILogable.swift",
+      "kind": "Dictionary",
+      "offset": 956,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/Logger\/AAILogCenter.swift",
+      "kind": "Dictionary",
+      "offset": 206,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/Logger\/AAILogger.swift",
+      "kind": "StringLiteral",
+      "offset": 867,
+      "length": 22,
+      "value": "\"com.aailog.logCenter\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/Logger\/AAILogger.swift",
+      "kind": "Array",
+      "offset": 984,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/Logger\/AAILogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1048,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/Logger\/AAILogger.swift",
+      "kind": "Array",
+      "offset": 5275,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/tools\/AAIPrint.swift",
+      "kind": "StringLiteral",
+      "offset": 154,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/tools\/AAIPrint.swift",
+      "kind": "StringLiteral",
+      "offset": 180,
+      "length": 4,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/akl\/AKL.swift",
+      "kind": "IntegerLiteral",
+      "offset": 257,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/akl\/AKL.swift",
+      "kind": "IntegerLiteral",
+      "offset": 269,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/akl\/AKL.swift",
+      "kind": "IntegerLiteral",
+      "offset": 280,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/akl\/AKL.swift",
+      "kind": "IntegerLiteral",
+      "offset": 293,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/akl\/AKL.swift",
+      "kind": "Array",
+      "offset": 8349,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/akl\/AKL.swift",
+      "kind": "Array",
+      "offset": 8395,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/akl\/AKL.swift",
+      "kind": "Array",
+      "offset": 8442,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/Ask\/Answer.swift",
+      "kind": "Array",
+      "offset": 307,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/Ask\/Answer.swift",
+      "kind": "StringLiteral",
+      "offset": 583,
+      "length": 15,
+      "value": "\"com.ask.poker\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/extension\/Bundle+ex.swift",
+      "kind": "StringLiteral",
+      "offset": 257,
+      "length": 16,
+      "value": "\"\/Assets.bundle\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/log\/event\/Event.swift",
+      "kind": "Dictionary",
+      "offset": 580,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/log\/event\/EventTracker.swift",
+      "kind": "Dictionary",
+      "offset": 699,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 166,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 191,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 217,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 274,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 353,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 387,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 450,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 487,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 520,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 554,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 585,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 622,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 659,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 741,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 833,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1005,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5613,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5639,
+      "length": 5,
+      "value": "-1001"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5673,
+      "length": 5,
+      "value": "-1009"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 371,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/customView\/LPToast.swift",
+      "kind": "Dictionary",
+      "offset": 572,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/NetworkChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 268,
+      "length": 8,
+      "value": "\"unknow\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/model\/RuntimeMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 287,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/model\/RuntimeMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 329,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/model\/RuntimeMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 374,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/model\/RuntimeMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 412,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/model\/RuntimeMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 450,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/model\/RuntimeMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 541,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/model\/RuntimeMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 589,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/model\/RuntimeMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 619,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/model\/RuntimeMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 652,
+      "length": 8,
+      "value": "\"unknow\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/model\/RuntimeMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 849,
+      "length": 8,
+      "value": "\"unknow\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/model\/RuntimeMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 904,
+      "length": 8,
+      "value": "\"unknow\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/config\/SLConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 218,
+      "length": 4,
+      "value": "\"zh\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/config\/SLConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 253,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/config\/SLConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 315,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/config\/SLConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 327,
+      "length": 4,
+      "value": "\"sg\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/config\/SLConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 371,
+      "length": 10,
+      "value": "\"Standard\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/config\/SLInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 272,
+      "length": 19,
+      "value": "\"k8s-api.advai.net\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/config\/SLInfo.swift",
+      "kind": "Dictionary",
+      "offset": 508,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/SLNavigationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 680,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/serviceTarget\/SLTargetable.swift",
+      "kind": "StringLiteral",
+      "offset": 1065,
+      "length": 41,
+      "value": "\"LPNetwork-Boundary-\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/serviceTarget\/SLTargetable.swift",
+      "kind": "StringLiteral",
+      "offset": 1105,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/solution\/SolutionCenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 267,
+      "length": 10,
+      "value": "0x55c265ff"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/solution\/SolutionCenter.swift",
+      "kind": "Array",
+      "offset": 2809,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/solution\/SolutionCenterOC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 163,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/solution\/SolutionCenterOC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 177,
+      "length": 13,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/extension\/UIColor+ex.swift",
+      "kind": "FloatLiteral",
+      "offset": 166,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/extension\/UIColor+ex.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1847,
+      "length": 10,
+      "value": "0xfafafaff"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/extension\/UIColor+ex.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1910,
+      "length": 10,
+      "value": "0x999999ff"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/extension\/UIColor+ex.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1973,
+      "length": 10,
+      "value": "0x666666ff"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/extension\/UIColor+ex.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2036,
+      "length": 10,
+      "value": "0x55c265ff"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/extension\/UIColor+ex.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2098,
+      "length": 10,
+      "value": "0x333333ff"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/extension\/UIColor+ex.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2162,
+      "length": 10,
+      "value": "0xFFFFFFff"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/extension\/UIColor+ex.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2226,
+      "length": 10,
+      "value": "0xd8d8d8ff"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/extension\/UIColor+ex.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2284,
+      "length": 10,
+      "value": "0xf5f5f5ff"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/extension\/UIColor+ex.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2346,
+      "length": 10,
+      "value": "0xF8A800ff"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/extension\/UIColor+ex.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2405,
+      "length": 10,
+      "value": "0x1c1c1eff"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/extension\/UIColor+ex.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2584,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/extension\/UIColor+ex.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2595,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 566,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1016,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "Array",
+      "offset": 1086,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2147,
+      "length": 11,
+      "value": "\"userAgent\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "Array",
+      "offset": 2198,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2228,
+      "length": 14,
+      "value": "\"Platform\/iOS\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2271,
+      "length": 52,
+      "value": "\"PluginPlatform\/\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2322,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2352,
+      "length": 22,
+      "value": "\"ServiceName\/Solution\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2466,
+      "length": 25,
+      "value": "\"AAIDeviceId\/\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2490,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2547,
+      "length": 34,
+      "value": "\"CPU ABI\/\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2580,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2636,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2643,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2650,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2682,
+      "length": 20,
+      "value": "\"Memory\/\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2699,
+      "length": 2,
+      "value": "\"GB\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2822,
+      "length": 6,
+      "value": "1024.0"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2831,
+      "length": 6,
+      "value": "1024.0"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2840,
+      "length": 6,
+      "value": "1024.0"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2878,
+      "length": 28,
+      "value": "\"FreeMemory\/\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2903,
+      "length": 2,
+      "value": "\"GB\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3048,
+      "length": 20,
+      "value": "\"Network\/\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3067,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3097,
+      "length": 53,
+      "value": "\"OS\/\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3123,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3149,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3179,
+      "length": 35,
+      "value": "\"Brand\/\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3213,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3310,
+      "length": 26,
+      "value": "\"AppVersion\/\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3335,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3431,
+      "length": 16,
+      "value": "\"Model\/\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3446,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3554,
+      "length": 16,
+      "value": "\"Build\/\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3569,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3650,
+      "length": 4,
+      "value": "\"; \""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3703,
+      "length": 58,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3709,
+      "length": 9,
+      "value": "\" AAIWebSDK\/\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3748,
+      "length": 1,
+      "value": "\" (\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3759,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3956,
+      "length": 18,
+      "value": "\"Refresh the page\""
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/viewModel\/WebViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 255,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

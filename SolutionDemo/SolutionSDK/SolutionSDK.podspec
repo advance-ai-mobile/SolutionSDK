@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SolutionSDK'
-  s.version          = '1.4.5-alpha.5'
+  s.version          = '1.5.0-alpha.4'
   s.summary          = 'Identity risk solution H5 module.'
 
 # This description is used to generate tags and improve search results.
@@ -23,14 +23,16 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'advance.ai' => 'advance.ai.mobile@advancegroup.com' }
-  s.source           = { :http => 'https://github.com/advance-ai-mobile/SolutionSDK.git' }
+  s.source = { :git => 'https://github.com/advance-ai-mobile/SolutionSDK.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '11.0'
 
   s.vendored_frameworks = ['Frameworks/*.xcframework']
 
   # Dependencies (auto-synced from SolutionSDK.podspec)
-  s.dependency 'AAIDataVisorSDK', '~> 0.1.8'
+  s.dependency 'AAIDataVisorSDK', '0.1.8'
   s.dependency 'AAICore', '~> 1.0.1'
+
+  # Dependencies (auto-synced from SolutionSDK.podspec)
   
 end

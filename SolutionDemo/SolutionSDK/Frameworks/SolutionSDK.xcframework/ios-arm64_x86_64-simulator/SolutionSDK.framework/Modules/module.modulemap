@@ -1,0 +1,11 @@
+framework module SolutionSDK {
+  umbrella header "SolutionSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SolutionSDK.Swift {
+  header "SolutionSDK-Swift.h"
+  requires objc
+}
