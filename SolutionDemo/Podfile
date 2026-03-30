@@ -9,7 +9,7 @@ target 'SolutionDemo' do
 
 #  pod 'SolutionSDK', :git => 'https://github.com/advance-ai-mobile/SolutionSDK.git'
   # pod 'SolutionSDK', :path => '../'
-  pod 'SolutionSDK', '1.5.0'
+  pod 'SolutionSDK', '1.4.5'
   pod 'SolutionDemoKit', :path => 'SolutionDemoKit'
 
 end
