@@ -7,28 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		589C1C7E0C025F4C0020DB02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD500AB71C2466B0EF3D862 /* ViewController.swift */; };
 		6AA248A019542DA676DCB972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FE1FCA6D47AD0A5F031DBE6 /* Assets.xcassets */; };
-		9D544316AAA7026AA4B224BA /* Pods_SolutionDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C34A3D763BF6874EC4F05015 /* Pods_SolutionDemo.framework */; };
+		706D0B56B415B66521E36B62 /* Pods_SolutionDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D897907AE4C33FF205983DF /* Pods_SolutionDemo.framework */; };
 		D12B0E08DF088C6C4ADB99A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14B9F6CCE66AB296FF77316 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00C2F328C690E3EE133045B9 /* Pods-SolutionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolutionDemo.release.xcconfig"; path = "Target Support Files/Pods-SolutionDemo/Pods-SolutionDemo.release.xcconfig"; sourceTree = "<group>"; };
+		0EB65BBEE9A1A3F016813F4E /* Pods-SolutionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolutionDemo.debug.xcconfig"; path = "Target Support Files/Pods-SolutionDemo/Pods-SolutionDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		0FE1FCA6D47AD0A5F031DBE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4CD500AB71C2466B0EF3D862 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D897907AE4C33FF205983DF /* Pods_SolutionDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SolutionDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72AB9097472BD200129D5E0B /* Pods-SolutionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolutionDemo.release.xcconfig"; path = "Target Support Files/Pods-SolutionDemo/Pods-SolutionDemo.release.xcconfig"; sourceTree = "<group>"; };
 		A14B9F6CCE66AB296FF77316 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A67C81AD11547AB10012A16E /* Pods-SolutionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolutionDemo.debug.xcconfig"; path = "Target Support Files/Pods-SolutionDemo/Pods-SolutionDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		C34A3D763BF6874EC4F05015 /* Pods_SolutionDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SolutionDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E01DAC60B73D8DC20C8467 /* SolutionDemo.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SolutionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FAD2BB7AD483F73102C22C93 /* Frameworks */ = {
+		131721555D1E01F8E0B1FB9E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D544316AAA7026AA4B224BA /* Pods_SolutionDemo.framework in Frameworks */,
+				706D0B56B415B66521E36B62 /* Pods_SolutionDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,15 +38,14 @@
 			children = (
 				A14B9F6CCE66AB296FF77316 /* AppDelegate.swift */,
 				0FE1FCA6D47AD0A5F031DBE6 /* Assets.xcassets */,
-				4CD500AB71C2466B0EF3D862 /* ViewController.swift */,
 			);
 			path = SolutionDemo;
 			sourceTree = "<group>";
 		};
-		37DFD0A05C242A378BF474C9 /* Frameworks */ = {
+		1B7984AA432C23647E16937E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C34A3D763BF6874EC4F05015 /* Pods_SolutionDemo.framework */,
+				4D897907AE4C33FF205983DF /* Pods_SolutionDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -61,24 +58,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		7AD86BC169575AFFC2FD0543 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EB65BBEE9A1A3F016813F4E /* Pods-SolutionDemo.debug.xcconfig */,
+				72AB9097472BD200129D5E0B /* Pods-SolutionDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F9B0FB009D1E9609E4888D24 = {
 			isa = PBXGroup;
 			children = (
 				16FF652A2D561F0139ED5A1A /* SolutionDemo */,
 				428D1DC57C90275A4E1E8C8F /* Products */,
-				FC84E80FB527AEE905B6538D /* Pods */,
-				37DFD0A05C242A378BF474C9 /* Frameworks */,
+				7AD86BC169575AFFC2FD0543 /* Pods */,
+				1B7984AA432C23647E16937E /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		FC84E80FB527AEE905B6538D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A67C81AD11547AB10012A16E /* Pods-SolutionDemo.debug.xcconfig */,
-				00C2F328C690E3EE133045B9 /* Pods-SolutionDemo.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -88,11 +85,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 888651A6B67366EA92F2BA2B /* Build configuration list for PBXNativeTarget "SolutionDemo" */;
 			buildPhases = (
-				3FD63AC97E7BA2AED979373C /* [CP] Check Pods Manifest.lock */,
+				350CE099ED1AE9D382A04CA2 /* [CP] Check Pods Manifest.lock */,
 				24772F3E200572B65459CF37 /* Sources */,
 				C7F04846E80803739BA786C2 /* Resources */,
-				FAD2BB7AD483F73102C22C93 /* Frameworks */,
-				23D25096811514B27D88FC77 /* [CP] Embed Pods Frameworks */,
+				131721555D1E01F8E0B1FB9E /* Frameworks */,
+				239AF31DA866EEBDE753BF83 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,7 +145,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		23D25096811514B27D88FC77 /* [CP] Embed Pods Frameworks */ = {
+		239AF31DA866EEBDE753BF83 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -165,7 +162,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SolutionDemo/Pods-SolutionDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3FD63AC97E7BA2AED979373C /* [CP] Check Pods Manifest.lock */ = {
+		350CE099ED1AE9D382A04CA2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -195,7 +192,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D12B0E08DF088C6C4ADB99A5 /* AppDelegate.swift in Sources */,
-				589C1C7E0C025F4C0020DB02 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,13 +200,14 @@
 /* Begin XCBuildConfiguration section */
 		2C47704DE39E08EF0E5FFEBF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A67C81AD11547AB10012A16E /* Pods-SolutionDemo.debug.xcconfig */;
+			baseConfigurationReference = 0EB65BBEE9A1A3F016813F4E /* Pods-SolutionDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z9FTN4K2J3;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Used to scan QR codes for Solution URL";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -290,13 +287,14 @@
 		};
 		C1AEE145A2DAAC2CDF6DFAD3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00C2F328C690E3EE133045B9 /* Pods-SolutionDemo.release.xcconfig */;
+			baseConfigurationReference = 72AB9097472BD200129D5E0B /* Pods-SolutionDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z9FTN4K2J3;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Used to scan QR codes for Solution URL";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;

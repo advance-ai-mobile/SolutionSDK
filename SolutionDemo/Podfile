@@ -8,6 +8,7 @@ target 'SolutionDemo' do
   use_frameworks!
 
 #  pod 'SolutionSDK', :git => 'https://github.com/advance-ai-mobile/SolutionSDK.git'
-pod 'SolutionSDK', :path => '../'
+  pod 'SolutionSDK', :path => '../'
+  pod 'SolutionDemoKit', :path => 'SolutionDemoKit'
 
 end
