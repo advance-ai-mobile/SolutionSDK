@@ -5,7 +5,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SolutionSDK'
-  s.version          = '1.5.0-alpha.5'
+  s.version          = '1.5.0'
   s.summary          = 'Identity risk solution H5 module.'
   s.description      = 'Identity risk solution H5 module.'
 
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = ['Frameworks/*.xcframework']
 
   # Dependencies (auto-synced from SolutionSDK.podspec)
-  s.dependency 'AAIDataVisorSDK', '0.1.8'
-  s.dependency 'AAICore', '~> 1.0.1'
+  s.dependency 'AAIDataVisorSDK', '~> 0.1.9'
+  s.dependency 'AAICore', '~> 1.0.3'
 
 end
