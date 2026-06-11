@@ -6,349 +6,6 @@
     "children": [
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CommonCrypto",
-        "printedName": "CommonCrypto",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "DictInitializable",
-        "printedName": "DictInitializable",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(with:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "τ_0_0?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:11SolutionSDK17DictInitializableP4withxSgSDySSypG_tcfc",
-            "mangledName": "$s11SolutionSDK17DictInitializableP4withxSgSDySSypG_tcfc",
-            "moduleName": "SolutionSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : SolutionSDK.DictInitializable>",
-            "sugared_genericSig": "<Self where Self : SolutionSDK.DictInitializable>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:11SolutionSDK17DictInitializableP",
-        "mangledName": "$s11SolutionSDK17DictInitializableP",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AAICore",
-        "printedName": "AAICore",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -372,15 +29,19 @@
         "name": "AAICore",
         "printedName": "AAICore",
         "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "SolutionSDK"
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "AAICoreSwift",
+        "printedName": "AAICoreSwift",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "SolutionSDK",
         "declAttributes": [
@@ -389,18 +50,15 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "AAICoreSwift",
+        "printedName": "AAICoreSwift",
         "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "SolutionSDK"
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "AAICoreSwift",
+        "printedName": "AAICoreSwift",
         "declKind": "Import",
         "moduleName": "SolutionSDK",
         "declAttributes": [
@@ -419,20 +77,61 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "AAICoreSwift",
+        "printedName": "AAICoreSwift",
         "declKind": "Import",
         "moduleName": "SolutionSDK"
       },
       {
         "kind": "Import",
-        "name": "Compression",
-        "printedName": "Compression",
+        "name": "AAICore",
+        "printedName": "AAICore",
         "declKind": "Import",
         "moduleName": "SolutionSDK",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "AAICoreSwift",
+        "printedName": "AAICoreSwift",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AAICoreSwift",
+        "printedName": "AAICoreSwift",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AAICoreSwift",
+        "printedName": "AAICoreSwift",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK"
       },
       {
         "kind": "Import",
@@ -446,43 +145,13 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
+        "name": "AAICoreSwift",
+        "printedName": "AAICoreSwift",
         "declKind": "Import",
         "moduleName": "SolutionSDK"
       },
       {
         "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -493,155 +162,66 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SystemConfiguration",
-        "printedName": "SystemConfiguration",
+        "name": "AAICoreSwift",
+        "printedName": "AAICoreSwift",
         "declKind": "Import",
         "moduleName": "SolutionSDK"
       },
       {
         "kind": "Import",
-        "name": "CoreTelephony",
-        "printedName": "CoreTelephony",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AAICoreSwift",
+        "printedName": "AAICoreSwift",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AAICoreSwift",
+        "printedName": "AAICoreSwift",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AAICoreSwift",
+        "printedName": "AAICoreSwift",
         "declKind": "Import",
         "moduleName": "SolutionSDK"
       },
@@ -667,63 +247,10 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "AAICoreSwift",
+        "printedName": "AAICoreSwift",
         "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "SolutionSDK"
       },
       {
         "kind": "TypeDecl",
@@ -1024,6 +551,72 @@
           },
           {
             "kind": "Var",
+            "name": "computedProperties",
+            "printedName": "computedProperties",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SolutionSDK9EndResultV18computedPropertiesSDySSypGvp",
+            "mangledName": "$s11SolutionSDK9EndResultV18computedPropertiesSDySSypGvp",
+            "moduleName": "SolutionSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SolutionSDK9EndResultV18computedPropertiesSDySSypGvg",
+                "mangledName": "$s11SolutionSDK9EndResultV18computedPropertiesSDySSypGvg",
+                "moduleName": "SolutionSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "toDict",
             "printedName": "toDict",
             "children": [
@@ -1117,6 +710,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DictConvertible",
+            "printedName": "DictConvertible",
+            "usr": "s:12AAICoreSwift15DictConvertibleP",
+            "mangledName": "$s12AAICoreSwift15DictConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -1218,6 +818,13 @@
       },
       {
         "kind": "Import",
+        "name": "AAICoreSwift",
+        "printedName": "AAICoreSwift",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1225,6 +832,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "AAICoreSwift",
+        "printedName": "AAICoreSwift",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK"
       },
       {
         "kind": "TypeDecl",
@@ -3062,63 +2676,17 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "AAICoreSwift",
+        "printedName": "AAICoreSwift",
         "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "SolutionSDK"
       },
       {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SolutionSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "SolutionSDK"
       },
       {
         "kind": "Import",
@@ -3146,6 +2714,13 @@
       },
       {
         "kind": "Import",
+        "name": "AAICoreSwift",
+        "printedName": "AAICoreSwift",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3156,6 +2731,20 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AAICoreSwift",
+        "printedName": "AAICoreSwift",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK"
+      },
+      {
+        "kind": "Import",
         "name": "WebKit",
         "printedName": "WebKit",
         "declKind": "Import",
@@ -3163,6 +2752,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "AAICoreSwift",
+        "printedName": "AAICoreSwift",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK"
       },
       {
         "kind": "Import",
@@ -3189,823 +2785,16 @@
         "moduleName": "SolutionSDK"
       },
       {
-        "kind": "TypeDecl",
-        "name": "Array",
-        "printedName": "Array",
-        "declKind": "Struct",
-        "usr": "s:Sa",
-        "mangledName": "$sSa",
-        "moduleName": "Swift",
-        "genericSig": "<τ_0_0>",
-        "sugared_genericSig": "<Element>",
-        "declAttributes": [
-          "EagerMove",
-          "Frozen"
-        ],
-        "isExternal": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "_DestructorSafeContainer",
-            "printedName": "_DestructorSafeContainer",
-            "usr": "s:s24_DestructorSafeContainerP",
-            "mangledName": "$ss24_DestructorSafeContainerP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ArrayProtocol",
-            "printedName": "_ArrayProtocol",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "_Buffer",
-                "printedName": "_Buffer",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "_ArrayBuffer",
-                    "printedName": "Swift._ArrayBuffer<τ_0_0>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GenericTypeParam",
-                        "printedName": "τ_0_0"
-                      }
-                    ],
-                    "usr": "s:s12_ArrayBufferV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s14_ArrayProtocolP",
-            "mangledName": "$ss14_ArrayProtocolP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RandomAccessCollection",
-            "printedName": "RandomAccessCollection",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Element",
-                "printedName": "Element",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Index",
-                "printedName": "Index",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "SubSequence",
-                "printedName": "SubSequence",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ArraySlice",
-                    "printedName": "Swift.ArraySlice<τ_0_0>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GenericTypeParam",
-                        "printedName": "τ_0_0"
-                      }
-                    ],
-                    "usr": "s:s10ArraySliceV"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Indices",
-                "printedName": "Indices",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Range",
-                    "printedName": "Swift.Range<Swift.Int>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sn"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:Sk",
-            "mangledName": "$sSk"
-          },
-          {
-            "kind": "Conformance",
-            "name": "MutableCollection",
-            "printedName": "MutableCollection",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Element",
-                "printedName": "Element",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Index",
-                "printedName": "Index",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "SubSequence",
-                "printedName": "SubSequence",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ArraySlice",
-                    "printedName": "Swift.ArraySlice<τ_0_0>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GenericTypeParam",
-                        "printedName": "τ_0_0"
-                      }
-                    ],
-                    "usr": "s:s10ArraySliceV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SM",
-            "mangledName": "$sSM"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BidirectionalCollection",
-            "printedName": "BidirectionalCollection",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Element",
-                "printedName": "Element",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Index",
-                "printedName": "Index",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "SubSequence",
-                "printedName": "SubSequence",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ArraySlice",
-                    "printedName": "Swift.ArraySlice<τ_0_0>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GenericTypeParam",
-                        "printedName": "τ_0_0"
-                      }
-                    ],
-                    "usr": "s:s10ArraySliceV"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Indices",
-                "printedName": "Indices",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Range",
-                    "printedName": "Swift.Range<Swift.Int>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sn"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SK",
-            "mangledName": "$sSK"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Collection",
-            "printedName": "Collection",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Element",
-                "printedName": "Element",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Index",
-                "printedName": "Index",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Iterator",
-                "printedName": "Iterator",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "IndexingIterator",
-                    "printedName": "Swift.IndexingIterator<[τ_0_0]>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[τ_0_0]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "GenericTypeParam",
-                            "printedName": "τ_0_0"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:s16IndexingIteratorV"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "SubSequence",
-                "printedName": "SubSequence",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ArraySlice",
-                    "printedName": "Swift.ArraySlice<τ_0_0>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GenericTypeParam",
-                        "printedName": "τ_0_0"
-                      }
-                    ],
-                    "usr": "s:s10ArraySliceV"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Indices",
-                "printedName": "Indices",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Range",
-                    "printedName": "Swift.Range<Swift.Int>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sn"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:Sl",
-            "mangledName": "$sSl"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sequence",
-            "printedName": "Sequence",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Element",
-                "printedName": "Element",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Iterator",
-                "printedName": "Iterator",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "IndexingIterator",
-                    "printedName": "Swift.IndexingIterator<[τ_0_0]>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[τ_0_0]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "GenericTypeParam",
-                            "printedName": "τ_0_0"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:s16IndexingIteratorV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:ST",
-            "mangledName": "$sST"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ExpressibleByArrayLiteral",
-            "printedName": "ExpressibleByArrayLiteral",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ArrayLiteralElement",
-                "printedName": "ArrayLiteralElement",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s25ExpressibleByArrayLiteralP",
-            "mangledName": "$ss25ExpressibleByArrayLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RangeReplaceableCollection",
-            "printedName": "RangeReplaceableCollection",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "SubSequence",
-                "printedName": "SubSequence",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ArraySlice",
-                    "printedName": "Swift.ArraySlice<τ_0_0>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GenericTypeParam",
-                        "printedName": "τ_0_0"
-                      }
-                    ],
-                    "usr": "s:s10ArraySliceV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:Sm",
-            "mangledName": "$sSm"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_HasCustomAnyHashableRepresentation",
-            "printedName": "_HasCustomAnyHashableRepresentation",
-            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
-            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_HasContiguousBytes",
-            "printedName": "_HasContiguousBytes",
-            "usr": "s:s19_HasContiguousBytesP",
-            "mangledName": "$ss19_HasContiguousBytesP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "DataProtocol",
-            "printedName": "DataProtocol",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Regions",
-                "printedName": "Regions",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CollectionOfOne",
-                    "printedName": "Swift.CollectionOfOne<[Swift.UInt8]>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.UInt8]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "UInt8",
-                            "printedName": "Swift.UInt8",
-                            "usr": "s:s5UInt8V"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:s15CollectionOfOneV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:10Foundation12DataProtocolP",
-            "mangledName": "$s10Foundation12DataProtocolP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "MutableDataProtocol",
-            "printedName": "MutableDataProtocol",
-            "usr": "s:10Foundation19MutableDataProtocolP",
-            "mangledName": "$s10Foundation19MutableDataProtocolP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ContiguousBytes",
-            "printedName": "ContiguousBytes",
-            "usr": "s:10Foundation15ContiguousBytesP",
-            "mangledName": "$s10Foundation15ContiguousBytesP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "EncodableWithConfiguration",
-            "printedName": "EncodableWithConfiguration",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "EncodingConfiguration",
-                "printedName": "EncodingConfiguration",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DependentMember",
-                    "printedName": "τ_0_0.EncodingConfiguration"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:10Foundation26EncodableWithConfigurationP",
-            "mangledName": "$s10Foundation26EncodableWithConfigurationP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "DecodableWithConfiguration",
-            "printedName": "DecodableWithConfiguration",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "DecodingConfiguration",
-                "printedName": "DecodingConfiguration",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DependentMember",
-                    "printedName": "τ_0_0.DecodingConfiguration"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:10Foundation26DecodableWithConfigurationP",
-            "mangledName": "$s10Foundation26DecodableWithConfigurationP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ObjectiveCBridgeable",
-            "printedName": "_ObjectiveCBridgeable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "_ObjectiveCType",
-                "printedName": "_ObjectiveCType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSArray",
-                    "printedName": "Foundation.NSArray",
-                    "usr": "c:objc(cs)NSArray"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s21_ObjectiveCBridgeableP",
-            "mangledName": "$ss21_ObjectiveCBridgeableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Content",
-            "printedName": "Content",
-            "usr": "s:So17CMSampleBufferRefa9CoreMediaE7ContentP",
-            "mangledName": "$sSo17CMSampleBufferRefa9CoreMediaE7ContentP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ContentWithFormatDescription",
-            "printedName": "ContentWithFormatDescription",
-            "usr": "s:So17CMSampleBufferRefa9CoreMediaE28ContentWithFormatDescriptionP",
-            "mangledName": "$sSo17CMSampleBufferRefa9CoreMediaE28ContentWithFormatDescriptionP"
-          }
-        ]
+        "kind": "Import",
+        "name": "AAICoreSwift",
+        "printedName": "AAICoreSwift",
+        "declKind": "Import",
+        "moduleName": "SolutionSDK"
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/customView\/AAILoadView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 454,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/Logger\/AAILogable.swift",
-      "kind": "Dictionary",
-      "offset": 956,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/Logger\/AAILogCenter.swift",
-      "kind": "Dictionary",
-      "offset": 206,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/Logger\/AAILogger.swift",
-      "kind": "StringLiteral",
-      "offset": 867,
-      "length": 22,
-      "value": "\"com.aailog.logCenter\""
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/Logger\/AAILogger.swift",
-      "kind": "Array",
-      "offset": 984,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/Logger\/AAILogger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1048,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/Logger\/AAILogger.swift",
-      "kind": "Array",
-      "offset": 5275,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/tools\/AAIPrint.swift",
-      "kind": "StringLiteral",
-      "offset": 154,
-      "length": 3,
-      "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/tools\/AAIPrint.swift",
-      "kind": "StringLiteral",
-      "offset": 180,
-      "length": 4,
-      "value": "\"\n\""
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/akl\/AKL.swift",
-      "kind": "IntegerLiteral",
-      "offset": 257,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/akl\/AKL.swift",
-      "kind": "IntegerLiteral",
-      "offset": 269,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/akl\/AKL.swift",
-      "kind": "IntegerLiteral",
-      "offset": 280,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/akl\/AKL.swift",
-      "kind": "IntegerLiteral",
-      "offset": 293,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/akl\/AKL.swift",
-      "kind": "Array",
-      "offset": 8349,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/akl\/AKL.swift",
-      "kind": "Array",
-      "offset": 8395,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/akl\/AKL.swift",
-      "kind": "Array",
-      "offset": 8442,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/Ask\/Answer.swift",
-      "kind": "Array",
-      "offset": 307,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/Ask\/Answer.swift",
-      "kind": "StringLiteral",
-      "offset": 583,
-      "length": 15,
-      "value": "\"com.ask.poker\""
-    },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/extension\/Bundle+ex.swift",
       "kind": "StringLiteral",
@@ -4016,245 +2805,91 @@
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/log\/event\/Event.swift",
       "kind": "Dictionary",
-      "offset": 580,
+      "offset": 600,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/log\/event\/EventTracker.swift",
       "kind": "Dictionary",
-      "offset": 699,
+      "offset": 719,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 166,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 191,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 217,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 274,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 353,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 387,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 450,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 487,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 520,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 554,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 585,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
-      "kind": "BooleanLiteral",
-      "offset": 622,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 659,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 741,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 833,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1005,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5613,
-      "length": 2,
-      "value": "-2"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5639,
-      "length": 5,
-      "value": "-1001"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionDelegate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5673,
-      "length": 5,
-      "value": "-1009"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/LPSessionManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 371,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/customView\/LPToast.swift",
-      "kind": "Dictionary",
-      "offset": 572,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/LPNetworking\/NetworkChecker.swift",
-      "kind": "StringLiteral",
-      "offset": 268,
-      "length": 8,
-      "value": "\"unknow\""
-    },
-    {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/model\/RuntimeMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 287,
+      "offset": 307,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/model\/RuntimeMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 329,
+      "offset": 349,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/model\/RuntimeMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 374,
+      "offset": 394,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/model\/RuntimeMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 412,
+      "offset": 432,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/model\/RuntimeMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 450,
+      "offset": 470,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/model\/RuntimeMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 541,
+      "offset": 561,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/model\/RuntimeMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 589,
+      "offset": 609,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/model\/RuntimeMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 619,
+      "offset": 639,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/model\/RuntimeMetrics.swift",
       "kind": "StringLiteral",
-      "offset": 652,
+      "offset": 672,
       "length": 8,
       "value": "\"unknow\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/model\/RuntimeMetrics.swift",
       "kind": "StringLiteral",
-      "offset": 849,
+      "offset": 869,
       "length": 8,
       "value": "\"unknow\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/model\/RuntimeMetrics.swift",
       "kind": "StringLiteral",
-      "offset": 904,
+      "offset": 924,
       "length": 8,
       "value": "\"unknow\""
     },
@@ -4317,28 +2952,28 @@
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/serviceTarget\/SLTargetable.swift",
       "kind": "StringLiteral",
-      "offset": 1065,
+      "offset": 1085,
       "length": 41,
       "value": "\"LPNetwork-Boundary-\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/serviceTarget\/SLTargetable.swift",
       "kind": "StringLiteral",
-      "offset": 1105,
+      "offset": 1125,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/solution\/SolutionCenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 267,
+      "offset": 287,
       "length": 10,
       "value": "0x55c265ff"
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/solution\/SolutionCenter.swift",
       "kind": "Array",
-      "offset": 2809,
+      "offset": 2829,
       "length": 2,
       "value": "[]"
     },
@@ -4357,394 +2992,303 @@
       "value": "2"
     },
     {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/extension\/UIColor+ex.swift",
-      "kind": "FloatLiteral",
-      "offset": 166,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/extension\/UIColor+ex.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1847,
-      "length": 10,
-      "value": "0xfafafaff"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/extension\/UIColor+ex.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1910,
-      "length": 10,
-      "value": "0x999999ff"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/extension\/UIColor+ex.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1973,
-      "length": 10,
-      "value": "0x666666ff"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/extension\/UIColor+ex.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2036,
-      "length": 10,
-      "value": "0x55c265ff"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/extension\/UIColor+ex.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2098,
-      "length": 10,
-      "value": "0x333333ff"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/extension\/UIColor+ex.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2162,
-      "length": 10,
-      "value": "0xFFFFFFff"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/extension\/UIColor+ex.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2226,
-      "length": 10,
-      "value": "0xd8d8d8ff"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/extension\/UIColor+ex.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2284,
-      "length": 10,
-      "value": "0xf5f5f5ff"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/extension\/UIColor+ex.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2346,
-      "length": 10,
-      "value": "0xF8A800ff"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/extension\/UIColor+ex.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2405,
-      "length": 10,
-      "value": "0x1c1c1eff"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/extension\/UIColor+ex.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2584,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/submodules\/AAICore-swift\/extension\/UIColor+ex.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2595,
-      "length": 1,
-      "value": "5"
-    },
-    {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 566,
+      "offset": 639,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1016,
+      "offset": 1061,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "Array",
-      "offset": 1086,
+      "offset": 1131,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2147,
+      "offset": 2196,
       "length": 11,
       "value": "\"userAgent\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "Array",
-      "offset": 2198,
+      "offset": 2247,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2228,
+      "offset": 2277,
       "length": 14,
       "value": "\"Platform\/iOS\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2271,
+      "offset": 2320,
       "length": 52,
       "value": "\"PluginPlatform\/\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2322,
+      "offset": 2371,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2352,
+      "offset": 2401,
       "length": 22,
       "value": "\"ServiceName\/Solution\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2466,
+      "offset": 2515,
       "length": 25,
       "value": "\"AAIDeviceId\/\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2490,
+      "offset": 2539,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2547,
+      "offset": 2596,
       "length": 34,
       "value": "\"CPU ABI\/\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2580,
+      "offset": 2629,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2636,
+      "offset": 2685,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2643,
+      "offset": 2692,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2650,
+      "offset": 2699,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2682,
+      "offset": 2731,
       "length": 20,
       "value": "\"Memory\/\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2699,
+      "offset": 2748,
       "length": 2,
       "value": "\"GB\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2822,
+      "offset": 2871,
       "length": 6,
       "value": "1024.0"
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2831,
+      "offset": 2880,
       "length": 6,
       "value": "1024.0"
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2840,
+      "offset": 2889,
       "length": 6,
       "value": "1024.0"
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2878,
+      "offset": 2927,
       "length": 28,
       "value": "\"FreeMemory\/\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2903,
+      "offset": 2952,
       "length": 2,
       "value": "\"GB\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3048,
+      "offset": 3097,
       "length": 20,
       "value": "\"Network\/\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3067,
+      "offset": 3116,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3097,
+      "offset": 3146,
       "length": 53,
       "value": "\"OS\/\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3123,
+      "offset": 3172,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3149,
+      "offset": 3198,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3179,
+      "offset": 3228,
       "length": 35,
       "value": "\"Brand\/\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3213,
+      "offset": 3262,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3310,
+      "offset": 3359,
       "length": 26,
       "value": "\"AppVersion\/\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3335,
+      "offset": 3384,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3431,
+      "offset": 3480,
       "length": 16,
       "value": "\"Model\/\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3446,
+      "offset": 3495,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3554,
+      "offset": 3603,
       "length": 16,
       "value": "\"Build\/\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3569,
+      "offset": 3618,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3650,
+      "offset": 3699,
       "length": 4,
       "value": "\"; \""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3703,
+      "offset": 3752,
       "length": 58,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3709,
+      "offset": 3758,
       "length": 9,
       "value": "\" AAIWebSDK\/\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3748,
+      "offset": 3797,
       "length": 1,
       "value": "\" (\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3759,
+      "offset": 3808,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3956,
+      "offset": 4005,
       "length": 18,
       "value": "\"Refresh the page\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/viewModel\/WebViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 255,
+      "offset": 275,
       "length": 5,
       "value": "false"
     }
