@@ -2812,7 +2812,7 @@
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/log\/event\/EventTracker.swift",
       "kind": "Dictionary",
-      "offset": 719,
+      "offset": 751,
       "length": 3,
       "value": "[]"
     },
@@ -2854,42 +2854,56 @@
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/model\/RuntimeMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 561,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/model\/RuntimeMetrics.swift",
-      "kind": "IntegerLiteral",
-      "offset": 609,
+      "offset": 552,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/model\/RuntimeMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 639,
+      "offset": 602,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/model\/RuntimeMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 662,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/model\/RuntimeMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 710,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/model\/RuntimeMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 740,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/model\/RuntimeMetrics.swift",
       "kind": "StringLiteral",
-      "offset": 672,
+      "offset": 773,
       "length": 8,
       "value": "\"unknow\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/model\/RuntimeMetrics.swift",
       "kind": "StringLiteral",
-      "offset": 869,
+      "offset": 970,
       "length": 8,
       "value": "\"unknow\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/model\/RuntimeMetrics.swift",
       "kind": "StringLiteral",
-      "offset": 924,
+      "offset": 1025,
       "length": 8,
       "value": "\"unknow\""
     },
@@ -3015,273 +3029,273 @@
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2196,
+      "offset": 2174,
       "length": 11,
       "value": "\"userAgent\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "Array",
-      "offset": 2247,
+      "offset": 2225,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2277,
+      "offset": 2255,
       "length": 14,
       "value": "\"Platform\/iOS\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2320,
+      "offset": 2298,
       "length": 52,
       "value": "\"PluginPlatform\/\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2371,
+      "offset": 2349,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2401,
+      "offset": 2379,
       "length": 22,
       "value": "\"ServiceName\/Solution\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2515,
+      "offset": 2493,
       "length": 25,
       "value": "\"AAIDeviceId\/\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2539,
+      "offset": 2517,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2596,
+      "offset": 2574,
       "length": 34,
       "value": "\"CPU ABI\/\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2629,
+      "offset": 2607,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2685,
+      "offset": 2663,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2692,
+      "offset": 2670,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2699,
+      "offset": 2677,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2731,
+      "offset": 2709,
       "length": 20,
       "value": "\"Memory\/\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2748,
+      "offset": 2726,
       "length": 2,
       "value": "\"GB\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2871,
+      "offset": 2849,
       "length": 6,
       "value": "1024.0"
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2880,
+      "offset": 2858,
       "length": 6,
       "value": "1024.0"
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2889,
+      "offset": 2867,
       "length": 6,
       "value": "1024.0"
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2927,
+      "offset": 2905,
       "length": 28,
       "value": "\"FreeMemory\/\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2952,
+      "offset": 2930,
       "length": 2,
       "value": "\"GB\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3097,
+      "offset": 3075,
       "length": 20,
       "value": "\"Network\/\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3116,
+      "offset": 3094,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3146,
+      "offset": 3124,
       "length": 53,
       "value": "\"OS\/\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3172,
+      "offset": 3150,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3198,
+      "offset": 3176,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3228,
+      "offset": 3206,
       "length": 35,
       "value": "\"Brand\/\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3262,
+      "offset": 3240,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3359,
+      "offset": 3337,
       "length": 26,
       "value": "\"AppVersion\/\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3384,
+      "offset": 3362,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3480,
+      "offset": 3458,
       "length": 16,
       "value": "\"Model\/\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3495,
+      "offset": 3473,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3603,
+      "offset": 3581,
       "length": 16,
       "value": "\"Build\/\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3618,
+      "offset": 3596,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3699,
+      "offset": 3677,
       "length": 4,
       "value": "\"; \""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3752,
+      "offset": 3730,
       "length": 58,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3758,
+      "offset": 3736,
       "length": 9,
       "value": "\" AAIWebSDK\/\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3797,
+      "offset": 3775,
       "length": 1,
       "value": "\" (\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3808,
+      "offset": 3786,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/loong\/guardian-liveness-detection-ios\/dev_pods\/Solution_pod\/SolutionSDK\/SolutionSDK\/Classes\/controller\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4005,
+      "offset": 3983,
       "length": 18,
       "value": "\"Refresh the page\""
     },

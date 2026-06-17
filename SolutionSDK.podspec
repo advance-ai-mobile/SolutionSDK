@@ -5,7 +5,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SolutionSDK'
-  s.version          = '1.5.0-alpha.1'
+  s.version          = '1.4.6-alpha.1'
   s.summary          = 'Identity risk solution H5 module.'
   s.description      = 'Identity risk solution H5 module.'
 
@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
   # Dependencies (auto-synced from SolutionSDK.podspec)
   s.dependency 'AAICoreSwift', '~> 1.0.0-alpha'
   s.dependency 'AAIDataVisorSDK', '~> 0.1.9'
-  s.dependency 'AAICore', '~> 1.0.3'
+  s.dependency 'AAICore', '~> 1.0.4'
 
 end
