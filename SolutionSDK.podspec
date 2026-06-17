@@ -5,7 +5,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SolutionSDK'
-  s.version          = '1.4.6-alpha.1'
+  s.version          = '1.4.6-alpha.2'
   s.summary          = 'Identity risk solution H5 module.'
   s.description      = 'Identity risk solution H5 module.'
 
